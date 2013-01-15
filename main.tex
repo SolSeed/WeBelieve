@@ -1,0 +1,107 @@
+% SolSeed Creed Commentary
+% (c) by Brandon CS Sanders, Shelley Sanders, Benjamin Sibelman,
+% Eric Saumur, and other contributing members of The SolSeed Movement
+%
+%
+% SolSeed Creed Commentary is licensed under a
+% Creative Commons Attribution-ShareAlike 3.0 Unported License.
+%
+% You should have received a copy of the license along with this
+% work.  If not, see <http://creativecommons.org/licenses/by-sa/3.0/>.
+\documentclass[ebook,12pt,openany,twoside]{memoir}
+\usepackage[latin1]{inputenc}
+\usepackage{setspace}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\chapterstyle{bringhurst}
+\openright
+
+\setlength\stockheight {9.25in}% \stockheight=9.25in
+\setlength\stockwidth  {6.25in}% \stockwidth=6.25in
+\setlength\trimtop     {.125in}
+\setlength\trimedge    {.125in}
+\setlength{\paperwidth}{6.0in}
+\setlength{\textwidth}{4.6in}
+\setlength{\textheight}{6.5in}
+\epigraphposition{flushright}
+% \setlength\epigraphwidth{3.6in}
+
+\newcommand{\tab}{\hspace*{2em}}
+
+\newcommand{\imagefacingchapter}[1]{
+  \cleartoverso
+  \clearpage \null
+  \thispagestyle{cleared}
+  \AddToShipoutPictureBG*{% Add picture to current page
+    \AtStockLowerLeft{% Add picture to lower-left corner of paper stock
+      \includegraphics[keepaspectratio=true, height=\stockheight]{#1}
+    }
+  }
+  \clearpage
+}
+
+\begin{document}
+
+
+%\pagenumbering{}
+% Set book title
+\title{\textbf{SolSeed Creed Commentary}}
+% Include Author name and Copyright holder name
+\author{The SolSeed Movement}
+\begin{titlingpage}
+\maketitle
+\end{titlingpage}
+
+
+\cleartorecto
+\thispagestyle{cleared}
+\pagenumbering{arabic}
+
+\pagestyle{plain}
+
+\imagefacingchapter{images/LifeIsWorthyOfVeneration}
+\chapter{Life is Precious}
+
+\setlength\epigraphwidth{2.25in}
+\epigraph{
+  Life is precious.\\
+  \tab It has always been precious,\\
+  \tab it will always be precious.
+}{}
+
+\noindent Life puts atoms together in very interesting ways. One configuration
+of atoms gives us an ant carrying a leaf many times larger than itself. From
+another configuration we get an eagle slipping gracefully through the sky. Yet
+another configuration becomes a person who feels, thinks, and loves.
+
+Without Life, the energy from our sun simply bounces off the planet. Life
+literally collects the energy Sol sends to earth, and stores it up for future
+use. Plants take energy from Sol and convert it into denser, more storable
+forms. The sugars and fats that our bodies burn are little pools of energy that
+originally came from our sun.
+
+Ants carrying, eagles soaring, people loving \ldots none of these would exist
+without Life's awesome capacity for organizing matter.
+
+Life is not perfect. This is obvious to anyone who has experienced cruelty or
+misfortune. And yet, Life is the only game in town. Without Life the Earth
+would be just another dead ball of rock.
+
+Nothing needs to change for Life to become ``worthy''. It already is worthy.
+Even if we had more wars, more hunger, and more systemic injustice, Life would
+still still be precious. Always and forever, Life is what it is \ldots and it
+is worthy of veneration!
+
+
+% Last pages for ToC
+%-------------------------------------------------------------------------------
+\newpage
+% Include dots between chapter name and page number
+%Finally, include the ToC
+\tableofcontents
+
+
+
+
+\end{document}
