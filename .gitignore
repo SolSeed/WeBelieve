@@ -26,6 +26,7 @@
 *.mtc
 *.mtc0
 main.pdf
+main.ent
 .DS_Store
 images/.DS_Store
 
