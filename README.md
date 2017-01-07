@@ -1,7 +1,9 @@
-SolSeed Creed Commentary
-========================
+We Believe
+==========
 
-Presents the SolSeed Creed one verse at a time with commentary on each verse.
+This is the source for the hardcover book that is [available to purchase with zero markup](http://www.lulu.com/shop/brandon-sanders/we-believe/hardcover/product-21052027.html).  The free electronic version [is also available](http://solseed.org/we_believe).
+
+We Believe presents the [SolSeed](http://solseed.org/) Creed one verse at a time with commentary on each verse.
 
 ## Contributing
 ### Pre-requisites
