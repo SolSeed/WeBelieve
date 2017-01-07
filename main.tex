@@ -14,6 +14,9 @@
 \usepackage{tocloft}
 \usepackage{graphicx}
 \usepackage{eso-pic}
+\usepackage{endnotes}
+\let\footnote=\endnote
+
 \chapterstyle{bringhurst}
 \openright
 
@@ -422,10 +425,11 @@ unique ``happy in the sun!''
 }{}
 
 \noindent Empathy is the mechanism by which we understand and value others.
-Culture and society spring from Empathy (see Jonathan Haidt Righteous Mind
-Crossing the Rubric chapter). Without Empathy the deep understanding and trust
-so necessary for collective action cannot exist. It is Empathy that spurs us to
-value the needs of others and consider how our actions might impact them.
+Culture and society spring from Empathy.\footnote{See the ``Why Are We So
+Groupish?'' chapter of The Righteous Mind\cite{haidt2013righteous}} Without
+Empathy the deep understanding and trust so necessary for collective action
+cannot exist. It is Empathy that spurs us to value the needs of others and
+consider how our actions might impact them.
 
 It can be difficult to cultivate Empathy for strangers in other countries, for
 the entire body of all Life, and for future generations. As we make our daily
@@ -571,5 +575,11 @@ seek to bring more life to ourselves, our communities, our world, indeed even
 unto the galaxy! Our religion succeeds in direct relation to how effective it
 is in supporting us in bringing life at each of these scales of abstraction.
 
+\newpage
+
+\theendnotes
+
+\bibliography{webelieve}{}
+\bibliographystyle{plain}
 
 \end{document}
